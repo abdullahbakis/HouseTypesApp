@@ -4,8 +4,8 @@ Welcome to the House Types App, a program that helps you manage and analyze vari
 ## Getting Started
 To run the program, you will need to have the following software installed on your computer:
 
-⋅⋅* Java JDK 8 or later
-⋅⋅* Gradle
+* Java JDK 8 or later
+* Gradle
 Clone the repository to your local machine and navigate to the project directory.
 ```
 git clone https://github.com/abdullahbakis/HouseTypesApp

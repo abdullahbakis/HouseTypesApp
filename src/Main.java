@@ -21,7 +21,7 @@ public class Main {
         Villa villa3 = new Villa(614000.0, 580.0, 7, 3, 3);
         SummerHouse summerHouse1 = new SummerHouse(576000.0, 110, 2, 1, 1);
         SummerHouse summerHouse2 = new SummerHouse(634000.0, 157, 3, 1,2);
-        SummerHouse summerHouse3 = new SummerHouse(727000.0, 190, 4, 1, 3);
+        SummerHouse summerHouse3 = new SummerHouse(727000.0, 190, 4, 2, 3);
 
         // Creating a list of all the houses
         List<HouseSuperClass> houses = Arrays.asList(house1, house2, house3, villa1, villa2, villa3,
@@ -39,6 +39,6 @@ public class Main {
         System.out.println("Average square meter of all Villas: " + service.getAverageSquareMeterByType(houses, Villa.class) + " m^2");
         System.out.println("Average square meter of all Summer Houses: " + service.getAverageSquareMeterByType(houses, SummerHouse.class) + " m^2");
         System.out.println("Average square meter of all types of houses: " + service.getAverageSquareMeter(houses) + " m^2");
-        System.out.println("Filtered houses by rooms and halls (min 3 rooms and 2 halls): " + service.filterHousesByRoomsAndHalls(houses, 3, 1));
+        System.out.println("Filtered houses by rooms and halls (min 3 rooms and 2 halls): " + service.filterHousesByRoomsAndHalls(houses, 3, 2));
     }
 }

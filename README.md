@@ -6,6 +6,7 @@ To run the program, you will need to have the following software installed on yo
 
 * Java JDK 8 or later
 * Gradle
+
 Clone the repository to your local machine and navigate to the project directory.
 ```
 git clone https://github.com/abdullahbakis/HouseTypesApp

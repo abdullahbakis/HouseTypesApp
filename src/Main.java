@@ -13,14 +13,14 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
         // Creating objects of the different types of houses
-        House house1 = new House(150000.0, 147.0, 2, 1,1);
+        House house1 = new House(150000.0, 147.0, 2, 1, 1);
         House house2 = new House(225000.0, 215.0, 4, 1, 2);
         House house3 = new House(437000.0, 259.0, 6, 2, 3);
         Villa villa1 = new Villa(328000.0, 370.0, 4, 2, 1);
         Villa villa2 = new Villa(565000.0, 430.0, 5, 3, 2);
         Villa villa3 = new Villa(614000.0, 580.0, 7, 3, 3);
         SummerHouse summerHouse1 = new SummerHouse(576000.0, 110, 2, 1, 1);
-        SummerHouse summerHouse2 = new SummerHouse(634000.0, 157, 3, 1,2);
+        SummerHouse summerHouse2 = new SummerHouse(634000.0, 157, 3, 1, 2);
         SummerHouse summerHouse3 = new SummerHouse(727000.0, 190, 4, 2, 3);
 
         // Creating a list of all the houses
